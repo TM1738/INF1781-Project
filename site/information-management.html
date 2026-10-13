@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Data and Information | Go Digital Retail Guide</title><style>
+:root{--g:#0b6e4f;--d:#16302b;--l:#f3f8f5;--a:#f2a900;--t:#222}
+*{box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;color:var(--t);line-height:1.65;background:#fff}
+header{background:var(--d);color:#fff;padding:.8rem 1rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.5rem}
+header strong{font-size:1.15rem}
+nav{display:flex;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;margin:0 .6rem;padding:.2rem 0;font-size:.95rem}
+nav a:hover,nav a.on{border-bottom:2px solid var(--a)}
+.hero{background:var(--g);color:#fff;padding:3rem 1rem;text-align:center}
+.hero h1{margin:0 0 .5rem;font-size:2.1rem}
+main{max-width:900px;margin:auto;padding:1.5rem 1rem}
+h1,h2,h3{color:var(--d);line-height:1.25}
+h2{border-left:5px solid var(--a);padding-left:.6rem;margin-top:2rem}
+.card{background:var(--l);border:1px solid #cfe3d8;border-radius:8px;padding:1rem;margin:1rem 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+.grid a{text-decoration:none;color:inherit}
+.grid .card:hover{border-color:var(--g);box-shadow:0 2px 8px #0002}
+.tip{border-left:5px solid var(--g);background:#eaf6ef;padding:.7rem 1rem;margin:1rem 0}
+.warn{border-left:5px solid #c0392b;background:#fdecea;padding:.7rem 1rem;margin:1rem 0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.93rem}
+th,td{border:1px solid #bbb;padding:.45rem;text-align:left}
+th{background:var(--d);color:#fff}
+.bad{background:#fdecea}
+.bar{background:#ddd;border-radius:4px;margin:.3rem 0}
+.bar div{background:var(--g);color:#fff;padding:.15rem .5rem;border-radius:4px;font-size:.85rem;white-space:nowrap}
+.tbl{overflow-x:auto}
+.pn{display:flex;justify-content:space-between;margin-top:2rem}
+.pn a{background:var(--g);color:#fff;padding:.5rem 1rem;border-radius:5px;text-decoration:none}
+footer{background:var(--d);color:#cde;text-align:center;padding:1rem;font-size:.85rem;margin-top:2rem}
+</style></head><body>
+<header><strong>Go Digital: A Retail IS Guide</strong><nav><a href="index.html">Home</a><a href="information-management.html" class=on>Managing Stock and Business Information</a><a href="popia.html">Data Ethics, Privacy and POPIA</a><a href="ai.html">AI &amp; Decision Support</a><a href="enterprise.html">Enterprise Systems and Integration</a><a href="customising.html">Adapting and Customising Systems</a></nav></header>
+<main>
+<h1>1. Data and information management</h1>
+<p>Every sale, delivery and customer chat creates data. Managing it well means capturing it once, storing it in one trusted place, and turning it into information that helps you decide.</p>
+<h2>Where retail data lives</h2>
+<table><tr><th>Data</th><th>Today</th><th>Better</th></tr>
+<tr><td>Stock</td><td>Spreadsheet, counted monthly</td><td>Stock module updated by every sale</td></tr>
+<tr><td>Customers</td><td>Paper cards</td><td>Simple customer database (with consent)</td></tr>
+<tr><td>Finances</td><td>Receipt book</td><td>Access Database</td></tr></table>
+<h2>Dashboards and data visualisation</h2>
+<p>A dashboard shows your few most important numbers on one screen. Pick charts to match the question: a <strong>bar chart</strong> to compare products, a <strong>line chart</strong> for trends over time, and a <strong>single big number</strong> for a target such as cash at bank. Avoid decoration. If a chart does not change a decision, remove it.</p>
+<div class="card"><h3>Example: sales by product category, last month (sample data)</h3>
+<div class="bar"><div style="width:85%">Groceries R42 500</div></div>
+<div class="bar"><div style="width:55%">Household R27 000</div></div>
+<div class="bar"><div style="width:30%">Toiletries R15 200</div></div>
+<div class="bar"><div style="width:12%">Airtime R6 100</div></div>
+<p><small>As you can visually see groceries drive the business, so running out of bread or maize meal costs far more than running out of airtime vouchers.</small></p></div>
+<h2>Information quality </h2>
+<p>Information quality is how <em>fit for use</em> your information is. Poor quality is the quiet reason most small-business systems fail: a fancy dashboard built on bad data simply shows wrong answers faster.</p>
+<h3>The six qualities to check</h3>
+<div class="tbl"><table><tr><th>Quality</th><th>Question to ask</th><th>Retail example of failure</th><th>Consequence</th></tr>
+<tr><td>Accuracy</td><td>Is it correct?</td><td>Stock shows 40 tins; shelf holds 4</td><td>Lost sales, wrong orders</td></tr>
+<tr><td>Completeness</td><td>Is anything missing?</td><td>Customer record has no phone number or consent</td><td>Cannot contact or legally market to them</td></tr>
+<tr><td>Timeliness</td><td>Is it up to date?</td><td>Prices updated on Monday but till still uses last week&rsquo;s</td><td>Selling at a loss</td></tr>
+<tr><td>Consistency</td><td>Does it match everywhere?</td><td>Same supplier spelled &ldquo;Mega Foods&rdquo; and &ldquo;MegaFoods (Pty)&rdquo;</td><td>Duplicate payments, split reports</td></tr>
+<tr><td>Validity</td><td>Is it in the right format?</td><td>Cell number 082 123 45, VAT typed as 150%</td><td>Failed SMSs, wrong invoices</td></tr>
+<tr><td>Relevance</td><td>Do we need it?</td><td>Tracking hobbies of customers</td><td>Clutter and POPIA risk</td></tr></table></div>
+<h3>Worked example: a messy customer list</h3>
+<div class="tbl"><table><tr><th>Name</th><th>Cell</th><th>Last purchase</th><th>Problem</th></tr>
+<tr class="bad"><td>T. Dlamini</td><td>082 123 45</td><td>12/03/26</td><td>Incomplete number</td></tr>
+<tr class="bad"><td>Thandi Dlamini</td><td>0821234567</td><td>2026-03-12</td><td>Likely duplicate; date format differs</td></tr>
+<tr class="bad"><td>Pieter vd Merwe</td><td>(blank)</td><td>R450</td><td>Amount in date column</td></tr></table></div>
+<h3>Practical guidance: a quality routine for a small shop</h3>
+<ol><li><strong>Name an owner.</strong> One person is responsible for each data set (stock, customers, prices).</li>
+<li><strong>Capture it once, at the source.</strong> Scan barcodes at the till and goods-received desk instead of retyping.</li>
+<li><strong>Use rules.</strong> Drop-down lists, required fields, and a standard date format (YYYY-MM-DD) stop errors on entry.</li>
+<li><strong>Count and compare.</strong> Do a weekly cycle count of your 10 fastest products and compare with the system.</li>
+<li><strong>Clean on a schedule.</strong> Monthly, merge duplicates and delete records you no longer need.</li>
+<li><strong>Train staff on why.</strong> People enter better data when they see how the numbers are used.</li></ol>
+<div class="warn"><strong>Trade-off:</strong> perfect data is impossible and expensive. Aim for &ldquo;good enough for the decision&rdquo;. Be strict about money and stock, relaxed about nice-to-have details.</div>
+<h3>Measuring quality</h3>
+<p>You cannot improve what you do not measure. Pick a few simple scores, calculate them the same way every month, and compare them with a target.</p>
+<div class="tbl"><table><tr><th>Score</th><th>How to calculate it</th><th>Example</th><th>Target</th></tr>
+<tr><td>Stock accuracy</td><td>Items that match &divide; items counted &times; 100</td><td>46 of 50 = 92%</td><td>95% or higher</td></tr>
+<tr><td>Customer record completeness</td><td>Records with name, cell number and consent &divide; all records &times; 100</td><td>160 of 200 = 80%</td><td>90% or higher</td></tr>
+<tr><td>Duplicate rate</td><td>Duplicate records &divide; all records &times; 100</td><td>12 of 200 = 6%</td><td>Under 2%</td></tr>
+<tr><td>Price timeliness</td><td>Products with the correct current price on the till &divide; products checked &times; 100</td><td>38 of 40 = 95%</td><td>100%</td></tr></table></div>
+<div class="card"><h3>Quality scorecard, this month (sample data)</h3>
+<div class="bar"><div style="width:92%">Stock accuracy 92% (target 95%)</div></div>
+<div class="bar"><div style="width:80%">Customer completeness 80% (target 90%)</div></div>
+<div class="bar"><div style="width:95%">Price timeliness 95% (target 100%)</div></div>
+<div class="bar"><div style="width:6%;min-width:8rem">Duplicates 6% (target under 2%)</div></div>
+<p><small>all three &ldquo;higher is better&rdquo; scores are below target, so customer completeness is the weakest and the first thing to fix. For duplicates, lower is better.</small></p></div>
+<div class="card"><h3>Stock accuracy over six months (sample data)</h3>
+<svg viewBox="0 0 620 270" role="img" aria-label="Line chart: stock accuracy rises from 78 percent to 94 percent over six months, with a 95 percent target line" style="width:100%;height:auto">
+<g stroke="#ccc"><line x1="50" y1="40" x2="590" y2="40"/><line x1="50" y1="100" x2="590" y2="100"/><line x1="50" y1="160" x2="590" y2="160"/><line x1="50" y1="220" x2="590" y2="220"/></g>
+<g font-size="12" fill="#333" text-anchor="end"><text x="44" y="44">100%</text><text x="44" y="104">90%</text><text x="44" y="164">80%</text><text x="44" y="224">70%</text></g>
+<line x1="50" y1="70" x2="590" y2="70" stroke="#c0392b" stroke-dasharray="6 4"/>
+<text x="590" y="62" font-size="12" fill="#c0392b" text-anchor="end">Target 95%</text>
+<polyline fill="none" stroke="#0b6e4f" stroke-width="3" points="80,172 170,148 260,130 350,106 440,88 530,76"/>
+<g fill="#0b6e4f"><circle cx="80" cy="172" r="4"/><circle cx="170" cy="148" r="4"/><circle cx="260" cy="130" r="4"/><circle cx="350" cy="106" r="4"/><circle cx="440" cy="88" r="4"/><circle cx="530" cy="76" r="4"/></g>
+<g font-size="12" fill="#333" text-anchor="middle"><text x="80" y="164">78%</text><text x="170" y="140">82%</text><text x="260" y="122">85%</text><text x="350" y="98">89%</text><text x="440" y="80">92%</text><text x="530" y="102">94%</text></g>
+<g font-size="12" fill="#333" text-anchor="middle"><text x="80" y="245">Month 1</text><text x="170" y="245">Month 2</text><text x="260" y="245">Month 3</text><text x="350" y="245">Month 4</text><text x="440" y="245">Month 5</text><text x="530" y="245">Month 6</text></g></svg>
+<p><small>A weekly cycle counts and a named stock owner lifted accuracy steadily. A rising line shows the routine is working, and a flat or falling line is an early warning.</small></p></div>
+<div class="tip"><strong>Keep it simple:</strong> measure on the same day each month, write the scores on one page, and share them with staff. Celebrate improvement and fix the weakest score first.</div>
+<h2>What to do</h2><ul><li>List your five most important data sets and name an owner for each.</li><li>Count 20 products on the shelf and compare with your records.</li></ul>
+<div class="pn"><a href="index.html">&larr; Previous</a><a href="popia.html">Next &rarr;</a></div></main>
+<footer>INF1781 Information Systems Project &ndash; Scenario 2: SME Digital Transformation (Retail). Educational resource only; not legal advice.</footer></body></html>

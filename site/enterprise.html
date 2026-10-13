@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Enterprise Systems and Integration | Go Digital Retail Guide</title><style>
+:root{--g:#0b6e4f;--d:#16302b;--l:#f3f8f5;--a:#f2a900;--t:#222}
+*{box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;color:var(--t);line-height:1.65;background:#fff}
+header{background:var(--d);color:#fff;padding:.8rem 1rem;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:.5rem}
+header strong{font-size:1.15rem}
+nav{display:flex;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;margin:0 .6rem;padding:.2rem 0;font-size:.95rem}
+nav a:hover,nav a.on{border-bottom:2px solid var(--a)}
+.hero{background:var(--g);color:#fff;padding:3rem 1rem;text-align:center}
+.hero h1{margin:0 0 .5rem;font-size:2.1rem}
+main{max-width:900px;margin:auto;padding:1.5rem 1rem}
+h1,h2,h3{color:var(--d);line-height:1.25}
+h2{border-left:5px solid var(--a);padding-left:.6rem;margin-top:2rem}
+.card{background:var(--l);border:1px solid #cfe3d8;border-radius:8px;padding:1rem;margin:1rem 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}
+.grid a{text-decoration:none;color:inherit}
+.grid .card:hover{border-color:var(--g);box-shadow:0 2px 8px #0002}
+.tip{border-left:5px solid var(--g);background:#eaf6ef;padding:.7rem 1rem;margin:1rem 0}
+.warn{border-left:5px solid #c0392b;background:#fdecea;padding:.7rem 1rem;margin:1rem 0}
+table{border-collapse:collapse;width:100%;margin:1rem 0;font-size:.93rem}
+th,td{border:1px solid #bbb;padding:.45rem;text-align:left}
+th{background:var(--d);color:#fff}
+.bad{background:#fdecea}
+.bar{background:#ddd;border-radius:4px;margin:.3rem 0}
+.bar div{background:var(--g);color:#fff;padding:.15rem .5rem;border-radius:4px;font-size:.85rem;white-space:nowrap}
+.tbl{overflow-x:auto}
+.pn{display:flex;justify-content:space-between;margin-top:2rem}
+.pn a{background:var(--g);color:#fff;padding:.5rem 1rem;border-radius:5px;text-decoration:none}
+footer{background:var(--d);color:#cde;text-align:center;padding:1rem;font-size:.85rem;margin-top:2rem}
+</style></head><body>
+<header><strong>Go Digital: A Retail IS Guide</strong><nav><a href="index.html">Home</a><a href="information-management.html">Managing Stock and Business Information</a><a href="popia.html">Data Ethics, Privacy and POPIA</a><a href="ai.html">AI &amp; Decision Support</a><a href="enterprise.html" class=on>Enterprise Systems and Integration</a><a href="customising.html">Adapting and Customising Systems</a></nav></header>
+<main>
+<h1>4. Enterprise systems and integration</h1>
+<p>An <strong>enterprise system</strong> (often called ERP) joins the main parts of a business, such as sales, stock, purchasing and accounting, around one shared database. Small retailers usually use a lighter version: a point-of-sale (POS) system linked to accounting software.</p>
+<h2>Why integration matters</h2>
+<p>Without it, a sale is typed three times: in the till, the stock sheet and the books. Each retype is a chance for error and a delay. With integration, one sale updates everything automatically.</p>
+<div class="card"><svg viewBox="0 0 640 200" role="img" aria-label="Diagram: till, stock, accounting and dashboard all connect to one shared database" style="width:100%;height:auto">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#16302b"/></marker></defs>
+<g fill="#eaf6ef" stroke="#0b6e4f" stroke-width="2"><rect x="10" y="20" width="130" height="54" rx="6"/><rect x="175" y="20" width="130" height="54" rx="6"/><rect x="340" y="20" width="130" height="54" rx="6"/><rect x="505" y="20" width="125" height="54" rx="6"/></g>
+<g font-size="14" fill="#16302b" text-anchor="middle" font-weight="bold"><text x="75" y="52">Till (POS)</text><text x="240" y="52">Stock</text><text x="405" y="52">Accounting</text><text x="567" y="52">Dashboard</text></g>
+<g stroke="#16302b" stroke-width="2" marker-end="url(#a)"><line x1="140" y1="47" x2="173" y2="47"/><line x1="305" y1="47" x2="338" y2="47"/><line x1="470" y1="47" x2="503" y2="47"/></g>
+<g stroke="#16302b" stroke-width="2" stroke-dasharray="4 3"><line x1="75" y1="74" x2="75" y2="130"/><line x1="240" y1="74" x2="240" y2="130"/><line x1="405" y1="74" x2="405" y2="130"/><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x1("url(#a)"><line x₁ = 75; y₁ = 74;	x₂ = 75;	y₂ = 130;
+<p><small>Reading it: a sale at the till updates stock, the books and the dashboard automatically, because they all use the same data.</small></p></div>
+<h2>Integration challenges</h2>
+<table><tr><th>Challenge</th><th>What it looks like</th><th>How to cope</th></tr>
+<tr><td>Cost</td><td>Monthly licences, set-up, training</td><td>Start with one module and grow</td></tr>
+<tr><td>Data migration</td><td>Moving old spreadsheets in</td><td>Clean the data first</td></tr>
+<tr><td>Staff resistance</td><td>&ldquo;The old way was fine&rdquo;</td><td>Involve staff early, train in small steps</td></tr>
+<tr><td>Vendor lock-in</td><td>Hard to leave a supplier</td><td>Check you can export your data</td></tr>
+<tr><td>Connectivity</td><td>Load shedding and weak internet</td><td>Choose offline-capable POS and a backup power plan</td></tr></table>
+<h2>Cloud or on-premises?</h2>
+<p><strong>Cloud</strong> software is paid monthly, updates itself and works from anywhere, but needs internet. <strong>On-premises</strong> software runs on your own computer, which costs more upfront and needs maintenance. Most small shops do better with cloud.</p>
+<h2>What to do</h2><ul><li>Draw how one sale moves through your business today and mark every retyping step.</li><li>Ask two vendors for a trial and a data export option.</li></ul>
+<div class="pn"><a href="ai.html">&larr; Previous</a><a href="customising.html">Next &rarr;</a></div></main>
+<footer>INF1781 Information Systems Project &ndash; Scenario 2: SME Digital Transformation (Retail). Educational resource only; not legal advice.</footer></body></html>
